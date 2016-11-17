@@ -19,7 +19,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 
-@Mod(modid = EzTimeKeeper.MODID, name = EzTimeKeeper.NAME, version = EzTimeKeeper.VERSION)
+@Mod(modid = EzTimeKeeper.MODID, name = EzTimeKeeper.NAME, version = EzTimeKeeper.VERSION, acceptableRemoteVersions="*")
 public class EzTimeKeeper {
 	public static final String MODID = "EzTimeKeeper";
 	public static final String NAME = "Time Keeper";
